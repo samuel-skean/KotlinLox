@@ -43,7 +43,7 @@ fun run(source: String) {
     }
 }
 
-fun error(lineNum: Int, message: String) {
+fun loxError(lineNum: Int, message: String) {
     report(lineNum, "", message)
 }
 
