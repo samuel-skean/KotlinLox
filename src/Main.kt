@@ -27,7 +27,7 @@ fun runPrompt() {
     while (true) {
         print("> ")
         // Throws an exception when the input ends.
-        val line = readln()
+        val line = readlnOrNull() ?: break
         run(line)
         hadError = false
     }
