@@ -1,0 +1,25 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER Foo null
+Line Number: 1 Start position: 10 LEFT_BRACE { null
+Line Number: 2 Start position: 14 IDENTIFIER method null
+Line Number: 2 Start position: 20 LEFT_PAREN ( null
+Line Number: 2 Start position: 21 RIGHT_PAREN ) null
+Line Number: 2 Start position: 23 LEFT_BRACE { null
+Line Number: 3 Start position: 29 RETURN return null
+Line Number: 3 Start position: 36 STRING "ok" ok
+Line Number: 3 Start position: 40 SEMICOLON ; null
+Line Number: 4 Start position: 46 PRINT print null
+Line Number: 4 Start position: 52 STRING "bad" bad
+Line Number: 4 Start position: 57 SEMICOLON ; null
+Line Number: 5 Start position: 61 RIGHT_BRACE } null
+Line Number: 6 Start position: 63 RIGHT_BRACE } null
+Line Number: 8 Start position: 66 PRINT print null
+Line Number: 8 Start position: 72 IDENTIFIER Foo null
+Line Number: 8 Start position: 75 LEFT_PAREN ( null
+Line Number: 8 Start position: 76 RIGHT_PAREN ) null
+Line Number: 8 Start position: 77 DOT . null
+Line Number: 8 Start position: 78 IDENTIFIER method null
+Line Number: 8 Start position: 84 LEFT_PAREN ( null
+Line Number: 8 Start position: 85 RIGHT_PAREN ) null
+Line Number: 8 Start position: 86 SEMICOLON ; null
+Line Number: 9 Start position: 101 EOF  null

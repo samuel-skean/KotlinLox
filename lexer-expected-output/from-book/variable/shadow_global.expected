@@ -1,0 +1,19 @@
+Line Number: 1 Start position: 0 VAR var null
+Line Number: 1 Start position: 4 IDENTIFIER a null
+Line Number: 1 Start position: 6 EQUAL = null
+Line Number: 1 Start position: 8 STRING "global" global
+Line Number: 1 Start position: 16 SEMICOLON ; null
+Line Number: 2 Start position: 18 LEFT_BRACE { null
+Line Number: 3 Start position: 22 VAR var null
+Line Number: 3 Start position: 26 IDENTIFIER a null
+Line Number: 3 Start position: 28 EQUAL = null
+Line Number: 3 Start position: 30 STRING "shadow" shadow
+Line Number: 3 Start position: 38 SEMICOLON ; null
+Line Number: 4 Start position: 42 PRINT print null
+Line Number: 4 Start position: 48 IDENTIFIER a null
+Line Number: 4 Start position: 49 SEMICOLON ; null
+Line Number: 5 Start position: 69 RIGHT_BRACE } null
+Line Number: 6 Start position: 71 PRINT print null
+Line Number: 6 Start position: 77 IDENTIFIER a null
+Line Number: 6 Start position: 78 SEMICOLON ; null
+Line Number: 7 Start position: 97 EOF  null

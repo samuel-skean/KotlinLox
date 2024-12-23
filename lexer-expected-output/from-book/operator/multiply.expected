@@ -1,0 +1,11 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 NUMBER 5 5.0
+Line Number: 1 Start position: 8 STAR * null
+Line Number: 1 Start position: 10 NUMBER 3 3.0
+Line Number: 1 Start position: 11 SEMICOLON ; null
+Line Number: 2 Start position: 27 PRINT print null
+Line Number: 2 Start position: 33 NUMBER 12.34 12.34
+Line Number: 2 Start position: 39 STAR * null
+Line Number: 2 Start position: 41 NUMBER 0.3 0.3
+Line Number: 2 Start position: 44 SEMICOLON ; null
+Line Number: 3 Start position: 62 EOF  null

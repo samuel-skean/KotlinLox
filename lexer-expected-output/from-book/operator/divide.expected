@@ -1,0 +1,11 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 NUMBER 8 8.0
+Line Number: 1 Start position: 8 SLASH / null
+Line Number: 1 Start position: 10 NUMBER 2 2.0
+Line Number: 1 Start position: 11 SEMICOLON ; null
+Line Number: 2 Start position: 34 PRINT print null
+Line Number: 2 Start position: 40 NUMBER 12.34 12.34
+Line Number: 2 Start position: 46 SLASH / null
+Line Number: 2 Start position: 48 NUMBER 12.34 12.34
+Line Number: 2 Start position: 53 SEMICOLON ; null
+Line Number: 3 Start position: 68 EOF  null

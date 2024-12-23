@@ -1,0 +1,12 @@
+Line Number: 1 Start position: 0 FUN fun null
+Line Number: 1 Start position: 4 IDENTIFIER foo null
+Line Number: 1 Start position: 7 LEFT_PAREN ( null
+Line Number: 1 Start position: 8 IDENTIFIER arg null
+Line Number: 1 Start position: 11 COMMA , null
+Line Number: 2 Start position: 21 IDENTIFIER arg null
+Line Number: 2 Start position: 24 RIGHT_PAREN ) null
+Line Number: 2 Start position: 26 LEFT_BRACE { null
+Line Number: 3 Start position: 98 STRING "body" body
+Line Number: 3 Start position: 104 SEMICOLON ; null
+Line Number: 4 Start position: 106 RIGHT_BRACE } null
+Line Number: 5 Start position: 107 EOF  null

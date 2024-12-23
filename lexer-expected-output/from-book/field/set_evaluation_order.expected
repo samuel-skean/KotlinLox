@@ -1,0 +1,7 @@
+Line Number: 1 Start position: 0 IDENTIFIER undefined1 null
+Line Number: 1 Start position: 10 DOT . null
+Line Number: 1 Start position: 11 IDENTIFIER bar null
+Line Number: 2 Start position: 75 EQUAL = null
+Line Number: 2 Start position: 77 IDENTIFIER undefined2 null
+Line Number: 2 Start position: 87 SEMICOLON ; null
+Line Number: 2 Start position: 87 EOF  null

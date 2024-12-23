@@ -1,0 +1,4 @@
+Line Number: 9 Start position: 172 PRINT print null
+Line Number: 9 Start position: 178 STRING "ok" ok
+Line Number: 9 Start position: 182 SEMICOLON ; null
+Line Number: 10 Start position: 197 EOF  null

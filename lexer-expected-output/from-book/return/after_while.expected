@@ -1,0 +1,19 @@
+Line Number: 1 Start position: 0 FUN fun null
+Line Number: 1 Start position: 4 IDENTIFIER f null
+Line Number: 1 Start position: 5 LEFT_PAREN ( null
+Line Number: 1 Start position: 6 RIGHT_PAREN ) null
+Line Number: 1 Start position: 8 LEFT_BRACE { null
+Line Number: 2 Start position: 12 WHILE while null
+Line Number: 2 Start position: 18 LEFT_PAREN ( null
+Line Number: 2 Start position: 19 TRUE true null
+Line Number: 2 Start position: 23 RIGHT_PAREN ) null
+Line Number: 2 Start position: 25 RETURN return null
+Line Number: 2 Start position: 32 STRING "ok" ok
+Line Number: 2 Start position: 36 SEMICOLON ; null
+Line Number: 3 Start position: 38 RIGHT_BRACE } null
+Line Number: 5 Start position: 41 PRINT print null
+Line Number: 5 Start position: 47 IDENTIFIER f null
+Line Number: 5 Start position: 48 LEFT_PAREN ( null
+Line Number: 5 Start position: 49 RIGHT_PAREN ) null
+Line Number: 5 Start position: 50 SEMICOLON ; null
+Line Number: 6 Start position: 65 EOF  null

@@ -1,0 +1,22 @@
+Line Number: 1 Start position: 0 FUN fun null
+Line Number: 1 Start position: 4 IDENTIFIER f null
+Line Number: 1 Start position: 5 LEFT_PAREN ( null
+Line Number: 1 Start position: 6 RIGHT_PAREN ) null
+Line Number: 1 Start position: 8 LEFT_BRACE { null
+Line Number: 2 Start position: 12 IF if null
+Line Number: 2 Start position: 15 LEFT_PAREN ( null
+Line Number: 2 Start position: 16 FALSE false null
+Line Number: 2 Start position: 21 RIGHT_PAREN ) null
+Line Number: 2 Start position: 23 STRING "no" no
+Line Number: 2 Start position: 27 SEMICOLON ; null
+Line Number: 2 Start position: 29 ELSE else null
+Line Number: 2 Start position: 34 RETURN return null
+Line Number: 2 Start position: 41 STRING "ok" ok
+Line Number: 2 Start position: 45 SEMICOLON ; null
+Line Number: 3 Start position: 47 RIGHT_BRACE } null
+Line Number: 5 Start position: 50 PRINT print null
+Line Number: 5 Start position: 56 IDENTIFIER f null
+Line Number: 5 Start position: 57 LEFT_PAREN ( null
+Line Number: 5 Start position: 58 RIGHT_PAREN ) null
+Line Number: 5 Start position: 59 SEMICOLON ; null
+Line Number: 6 Start position: 74 EOF  null

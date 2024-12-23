@@ -1,0 +1,21 @@
+Line Number: 1 Start position: 0 LEFT_BRACE { null
+Line Number: 1 Start position: 1 RIGHT_BRACE } null
+Line Number: 4 Start position: 37 IF if null
+Line Number: 4 Start position: 40 LEFT_PAREN ( null
+Line Number: 4 Start position: 41 TRUE true null
+Line Number: 4 Start position: 45 RIGHT_PAREN ) null
+Line Number: 4 Start position: 47 LEFT_BRACE { null
+Line Number: 4 Start position: 48 RIGHT_BRACE } null
+Line Number: 5 Start position: 50 IF if null
+Line Number: 5 Start position: 53 LEFT_PAREN ( null
+Line Number: 5 Start position: 54 FALSE false null
+Line Number: 5 Start position: 59 RIGHT_PAREN ) null
+Line Number: 5 Start position: 61 LEFT_BRACE { null
+Line Number: 5 Start position: 62 RIGHT_BRACE } null
+Line Number: 5 Start position: 64 ELSE else null
+Line Number: 5 Start position: 69 LEFT_BRACE { null
+Line Number: 5 Start position: 70 RIGHT_BRACE } null
+Line Number: 7 Start position: 73 PRINT print null
+Line Number: 7 Start position: 79 STRING "ok" ok
+Line Number: 7 Start position: 83 SEMICOLON ; null
+Line Number: 8 Start position: 98 EOF  null

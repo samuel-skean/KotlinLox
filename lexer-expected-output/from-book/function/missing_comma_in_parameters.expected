@@ -1,0 +1,17 @@
+Line Number: 3 Start position: 107 FUN fun null
+Line Number: 3 Start position: 111 IDENTIFIER foo null
+Line Number: 3 Start position: 114 LEFT_PAREN ( null
+Line Number: 3 Start position: 115 IDENTIFIER a null
+Line Number: 3 Start position: 116 COMMA , null
+Line Number: 3 Start position: 118 IDENTIFIER b null
+Line Number: 3 Start position: 120 IDENTIFIER c null
+Line Number: 3 Start position: 121 COMMA , null
+Line Number: 3 Start position: 123 IDENTIFIER d null
+Line Number: 3 Start position: 124 COMMA , null
+Line Number: 3 Start position: 126 IDENTIFIER e null
+Line Number: 3 Start position: 127 COMMA , null
+Line Number: 3 Start position: 129 IDENTIFIER f null
+Line Number: 3 Start position: 130 RIGHT_PAREN ) null
+Line Number: 3 Start position: 132 LEFT_BRACE { null
+Line Number: 3 Start position: 133 RIGHT_BRACE } null
+Line Number: 4 Start position: 134 EOF  null

@@ -1,0 +1,5 @@
+Line Number: 1 Start position: 0 TRUE true null
+Line Number: 1 Start position: 4 LEFT_PAREN ( null
+Line Number: 1 Start position: 5 RIGHT_PAREN ) null
+Line Number: 1 Start position: 6 SEMICOLON ; null
+Line Number: 2 Start position: 69 EOF  null

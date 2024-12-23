@@ -1,0 +1,4 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 NIL nil null
+Line Number: 1 Start position: 9 SEMICOLON ; null
+Line Number: 2 Start position: 25 EOF  null

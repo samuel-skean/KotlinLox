@@ -1,0 +1,11 @@
+Line Number: 2 Start position: 47 WHILE while null
+Line Number: 2 Start position: 53 LEFT_PAREN ( null
+Line Number: 2 Start position: 54 TRUE true null
+Line Number: 2 Start position: 58 RIGHT_PAREN ) null
+Line Number: 2 Start position: 60 FUN fun null
+Line Number: 2 Start position: 64 IDENTIFIER foo null
+Line Number: 2 Start position: 67 LEFT_PAREN ( null
+Line Number: 2 Start position: 68 RIGHT_PAREN ) null
+Line Number: 2 Start position: 70 LEFT_BRACE { null
+Line Number: 2 Start position: 71 RIGHT_BRACE } null
+Line Number: 3 Start position: 72 EOF  null

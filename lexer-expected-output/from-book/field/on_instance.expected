@@ -1,0 +1,36 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER Foo null
+Line Number: 1 Start position: 10 LEFT_BRACE { null
+Line Number: 1 Start position: 11 RIGHT_BRACE } null
+Line Number: 3 Start position: 14 VAR var null
+Line Number: 3 Start position: 18 IDENTIFIER foo null
+Line Number: 3 Start position: 22 EQUAL = null
+Line Number: 3 Start position: 24 IDENTIFIER Foo null
+Line Number: 3 Start position: 27 LEFT_PAREN ( null
+Line Number: 3 Start position: 28 RIGHT_PAREN ) null
+Line Number: 3 Start position: 29 SEMICOLON ; null
+Line Number: 5 Start position: 32 PRINT print null
+Line Number: 5 Start position: 38 IDENTIFIER foo null
+Line Number: 5 Start position: 41 DOT . null
+Line Number: 5 Start position: 42 IDENTIFIER bar null
+Line Number: 5 Start position: 46 EQUAL = null
+Line Number: 5 Start position: 48 STRING "bar value" bar value
+Line Number: 5 Start position: 59 SEMICOLON ; null
+Line Number: 6 Start position: 82 PRINT print null
+Line Number: 6 Start position: 88 IDENTIFIER foo null
+Line Number: 6 Start position: 91 DOT . null
+Line Number: 6 Start position: 92 IDENTIFIER baz null
+Line Number: 6 Start position: 96 EQUAL = null
+Line Number: 6 Start position: 98 STRING "baz value" baz value
+Line Number: 6 Start position: 109 SEMICOLON ; null
+Line Number: 8 Start position: 133 PRINT print null
+Line Number: 8 Start position: 139 IDENTIFIER foo null
+Line Number: 8 Start position: 142 DOT . null
+Line Number: 8 Start position: 143 IDENTIFIER bar null
+Line Number: 8 Start position: 146 SEMICOLON ; null
+Line Number: 9 Start position: 169 PRINT print null
+Line Number: 9 Start position: 175 IDENTIFIER foo null
+Line Number: 9 Start position: 178 DOT . null
+Line Number: 9 Start position: 179 IDENTIFIER baz null
+Line Number: 9 Start position: 182 SEMICOLON ; null
+Line Number: 10 Start position: 204 EOF  null

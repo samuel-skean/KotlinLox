@@ -1,0 +1,12 @@
+Line Number: 1 Start position: 0 VAR var null
+Line Number: 1 Start position: 4 IDENTIFIER Nil null
+Line Number: 1 Start position: 8 EQUAL = null
+Line Number: 1 Start position: 10 NIL nil null
+Line Number: 1 Start position: 13 SEMICOLON ; null
+Line Number: 2 Start position: 15 CLASS class null
+Line Number: 2 Start position: 21 IDENTIFIER Foo null
+Line Number: 2 Start position: 25 LESS < null
+Line Number: 2 Start position: 27 IDENTIFIER Nil null
+Line Number: 2 Start position: 31 LEFT_BRACE { null
+Line Number: 2 Start position: 32 RIGHT_BRACE } null
+Line Number: 3 Start position: 86 EOF  null

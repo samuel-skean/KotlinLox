@@ -1,0 +1,14 @@
+Line Number: 2 Start position: 73 VAR var null
+Line Number: 2 Start position: 77 IDENTIFIER a null
+Line Number: 2 Start position: 79 EQUAL = null
+Line Number: 5 Start position: 81 STRING "1
+2
+3
+" 1
+2
+3
+
+Line Number: 5 Start position: 89 SEMICOLON ; null
+Line Number: 7 Start position: 92 IDENTIFIER err null
+Line Number: 7 Start position: 95 SEMICOLON ; null
+Line Number: 7 Start position: 97 EOF  null

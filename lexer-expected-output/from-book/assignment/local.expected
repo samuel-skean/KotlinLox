@@ -1,0 +1,26 @@
+Line Number: 1 Start position: 0 LEFT_BRACE { null
+Line Number: 2 Start position: 4 VAR var null
+Line Number: 2 Start position: 8 IDENTIFIER a null
+Line Number: 2 Start position: 10 EQUAL = null
+Line Number: 2 Start position: 12 STRING "before" before
+Line Number: 2 Start position: 20 SEMICOLON ; null
+Line Number: 3 Start position: 24 PRINT print null
+Line Number: 3 Start position: 30 IDENTIFIER a null
+Line Number: 3 Start position: 31 SEMICOLON ; null
+Line Number: 5 Start position: 54 IDENTIFIER a null
+Line Number: 5 Start position: 56 EQUAL = null
+Line Number: 5 Start position: 58 STRING "after" after
+Line Number: 5 Start position: 65 SEMICOLON ; null
+Line Number: 6 Start position: 69 PRINT print null
+Line Number: 6 Start position: 75 IDENTIFIER a null
+Line Number: 6 Start position: 76 SEMICOLON ; null
+Line Number: 8 Start position: 98 PRINT print null
+Line Number: 8 Start position: 104 IDENTIFIER a null
+Line Number: 8 Start position: 106 EQUAL = null
+Line Number: 8 Start position: 108 STRING "arg" arg
+Line Number: 8 Start position: 113 SEMICOLON ; null
+Line Number: 9 Start position: 132 PRINT print null
+Line Number: 9 Start position: 138 IDENTIFIER a null
+Line Number: 9 Start position: 139 SEMICOLON ; null
+Line Number: 10 Start position: 156 RIGHT_BRACE } null
+Line Number: 11 Start position: 157 EOF  null

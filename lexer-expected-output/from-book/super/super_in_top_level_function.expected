@@ -1,0 +1,13 @@
+Line Number: 1 Start position: 2 SUPER super null
+Line Number: 1 Start position: 7 DOT . null
+Line Number: 1 Start position: 8 IDENTIFIER bar null
+Line Number: 1 Start position: 11 LEFT_PAREN ( null
+Line Number: 1 Start position: 12 RIGHT_PAREN ) null
+Line Number: 1 Start position: 13 SEMICOLON ; null
+Line Number: 2 Start position: 74 FUN fun null
+Line Number: 2 Start position: 78 IDENTIFIER foo null
+Line Number: 2 Start position: 81 LEFT_PAREN ( null
+Line Number: 2 Start position: 82 RIGHT_PAREN ) null
+Line Number: 2 Start position: 84 LEFT_BRACE { null
+Line Number: 3 Start position: 86 RIGHT_BRACE } null
+Line Number: 3 Start position: 86 EOF  null

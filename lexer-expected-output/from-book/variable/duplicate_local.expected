@@ -1,0 +1,13 @@
+Line Number: 1 Start position: 0 LEFT_BRACE { null
+Line Number: 2 Start position: 4 VAR var null
+Line Number: 2 Start position: 8 IDENTIFIER a null
+Line Number: 2 Start position: 10 EQUAL = null
+Line Number: 2 Start position: 12 STRING "value" value
+Line Number: 2 Start position: 19 SEMICOLON ; null
+Line Number: 3 Start position: 23 VAR var null
+Line Number: 3 Start position: 27 IDENTIFIER a null
+Line Number: 3 Start position: 29 EQUAL = null
+Line Number: 3 Start position: 31 STRING "other" other
+Line Number: 3 Start position: 38 SEMICOLON ; null
+Line Number: 4 Start position: 106 RIGHT_BRACE } null
+Line Number: 5 Start position: 107 EOF  null

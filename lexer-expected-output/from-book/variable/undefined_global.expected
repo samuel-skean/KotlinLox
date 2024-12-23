@@ -1,0 +1,4 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 IDENTIFIER notDefined null
+Line Number: 1 Start position: 16 SEMICOLON ; null
+Line Number: 2 Start position: 76 EOF  null

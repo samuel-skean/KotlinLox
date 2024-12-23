@@ -1,0 +1,14 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 BANG ! null
+Line Number: 1 Start position: 7 TRUE true null
+Line Number: 1 Start position: 11 SEMICOLON ; null
+Line Number: 2 Start position: 33 PRINT print null
+Line Number: 2 Start position: 39 BANG ! null
+Line Number: 2 Start position: 40 FALSE false null
+Line Number: 2 Start position: 45 SEMICOLON ; null
+Line Number: 3 Start position: 65 PRINT print null
+Line Number: 3 Start position: 71 BANG ! null
+Line Number: 3 Start position: 72 BANG ! null
+Line Number: 3 Start position: 73 TRUE true null
+Line Number: 3 Start position: 77 SEMICOLON ; null
+Line Number: 4 Start position: 96 EOF  null

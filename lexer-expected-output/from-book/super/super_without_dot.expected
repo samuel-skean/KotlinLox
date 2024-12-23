@@ -1,0 +1,18 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER A null
+Line Number: 1 Start position: 8 LEFT_BRACE { null
+Line Number: 1 Start position: 9 RIGHT_BRACE } null
+Line Number: 3 Start position: 12 CLASS class null
+Line Number: 3 Start position: 18 IDENTIFIER B null
+Line Number: 3 Start position: 20 LESS < null
+Line Number: 3 Start position: 22 IDENTIFIER A null
+Line Number: 3 Start position: 24 LEFT_BRACE { null
+Line Number: 4 Start position: 28 IDENTIFIER method null
+Line Number: 4 Start position: 34 LEFT_PAREN ( null
+Line Number: 4 Start position: 35 RIGHT_PAREN ) null
+Line Number: 4 Start position: 37 LEFT_BRACE { null
+Line Number: 6 Start position: 99 SUPER super null
+Line Number: 6 Start position: 104 SEMICOLON ; null
+Line Number: 7 Start position: 108 RIGHT_BRACE } null
+Line Number: 8 Start position: 110 RIGHT_BRACE } null
+Line Number: 9 Start position: 111 EOF  null

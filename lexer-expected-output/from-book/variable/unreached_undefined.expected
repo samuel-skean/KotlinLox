@@ -1,0 +1,13 @@
+Line Number: 1 Start position: 0 IF if null
+Line Number: 1 Start position: 3 LEFT_PAREN ( null
+Line Number: 1 Start position: 4 FALSE false null
+Line Number: 1 Start position: 9 RIGHT_PAREN ) null
+Line Number: 1 Start position: 11 LEFT_BRACE { null
+Line Number: 2 Start position: 15 PRINT print null
+Line Number: 2 Start position: 21 IDENTIFIER notDefined null
+Line Number: 2 Start position: 31 SEMICOLON ; null
+Line Number: 3 Start position: 33 RIGHT_BRACE } null
+Line Number: 5 Start position: 36 PRINT print null
+Line Number: 5 Start position: 42 STRING "ok" ok
+Line Number: 5 Start position: 46 SEMICOLON ; null
+Line Number: 6 Start position: 61 EOF  null

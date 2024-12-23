@@ -1,0 +1,12 @@
+Line Number: 1 Start position: 0 FUN fun null
+Line Number: 1 Start position: 4 IDENTIFIER f null
+Line Number: 1 Start position: 5 LEFT_PAREN ( null
+Line Number: 1 Start position: 6 RIGHT_PAREN ) null
+Line Number: 1 Start position: 8 LEFT_BRACE { null
+Line Number: 1 Start position: 9 RIGHT_BRACE } null
+Line Number: 2 Start position: 11 PRINT print null
+Line Number: 2 Start position: 17 IDENTIFIER f null
+Line Number: 2 Start position: 18 LEFT_PAREN ( null
+Line Number: 2 Start position: 19 RIGHT_PAREN ) null
+Line Number: 2 Start position: 20 SEMICOLON ; null
+Line Number: 3 Start position: 36 EOF  null

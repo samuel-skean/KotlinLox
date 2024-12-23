@@ -1,0 +1,31 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER Foo null
+Line Number: 1 Start position: 10 LEFT_BRACE { null
+Line Number: 2 Start position: 14 IDENTIFIER bar null
+Line Number: 2 Start position: 17 LEFT_PAREN ( null
+Line Number: 2 Start position: 18 IDENTIFIER arg null
+Line Number: 2 Start position: 21 RIGHT_PAREN ) null
+Line Number: 2 Start position: 23 LEFT_BRACE { null
+Line Number: 3 Start position: 29 PRINT print null
+Line Number: 3 Start position: 35 IDENTIFIER arg null
+Line Number: 3 Start position: 38 SEMICOLON ; null
+Line Number: 4 Start position: 42 RIGHT_BRACE } null
+Line Number: 5 Start position: 44 RIGHT_BRACE } null
+Line Number: 7 Start position: 47 VAR var null
+Line Number: 7 Start position: 51 IDENTIFIER bar null
+Line Number: 7 Start position: 55 EQUAL = null
+Line Number: 7 Start position: 57 IDENTIFIER Foo null
+Line Number: 7 Start position: 60 LEFT_PAREN ( null
+Line Number: 7 Start position: 61 RIGHT_PAREN ) null
+Line Number: 7 Start position: 62 DOT . null
+Line Number: 7 Start position: 63 IDENTIFIER bar null
+Line Number: 7 Start position: 66 SEMICOLON ; null
+Line Number: 8 Start position: 68 PRINT print null
+Line Number: 8 Start position: 74 STRING "got method" got method
+Line Number: 8 Start position: 86 SEMICOLON ; null
+Line Number: 9 Start position: 110 IDENTIFIER bar null
+Line Number: 9 Start position: 113 LEFT_PAREN ( null
+Line Number: 9 Start position: 114 STRING "arg" arg
+Line Number: 9 Start position: 119 RIGHT_PAREN ) null
+Line Number: 9 Start position: 120 SEMICOLON ; null
+Line Number: 10 Start position: 145 EOF  null

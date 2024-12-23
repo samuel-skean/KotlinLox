@@ -1,0 +1,16 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER Foo null
+Line Number: 1 Start position: 10 LEFT_BRACE { null
+Line Number: 1 Start position: 11 RIGHT_BRACE } null
+Line Number: 3 Start position: 14 VAR var null
+Line Number: 3 Start position: 18 IDENTIFIER foo null
+Line Number: 3 Start position: 22 EQUAL = null
+Line Number: 3 Start position: 24 IDENTIFIER Foo null
+Line Number: 3 Start position: 27 LEFT_PAREN ( null
+Line Number: 3 Start position: 28 RIGHT_PAREN ) null
+Line Number: 3 Start position: 29 SEMICOLON ; null
+Line Number: 4 Start position: 31 IDENTIFIER foo null
+Line Number: 4 Start position: 34 LEFT_PAREN ( null
+Line Number: 4 Start position: 35 RIGHT_PAREN ) null
+Line Number: 4 Start position: 36 SEMICOLON ; null
+Line Number: 5 Start position: 99 EOF  null

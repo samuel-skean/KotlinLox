@@ -1,0 +1,5 @@
+Line Number: 1 Start position: 0 TRUE true null
+Line Number: 1 Start position: 5 PLUS + null
+Line Number: 1 Start position: 7 STRING "s" s
+Line Number: 1 Start position: 10 SEMICOLON ; null
+Line Number: 2 Start position: 81 EOF  null

@@ -1,0 +1,7 @@
+Line Number: 1 Start position: 0 NIL nil null
+Line Number: 1 Start position: 3 DOT . null
+Line Number: 1 Start position: 4 IDENTIFIER foo null
+Line Number: 1 Start position: 8 EQUAL = null
+Line Number: 1 Start position: 10 STRING "value" value
+Line Number: 1 Start position: 17 SEMICOLON ; null
+Line Number: 2 Start position: 71 EOF  null

@@ -1,0 +1,5 @@
+Line Number: 1 Start position: 0 NUMBER 123 123.0
+Line Number: 1 Start position: 3 DOT . null
+Line Number: 1 Start position: 4 IDENTIFIER foo null
+Line Number: 1 Start position: 7 SEMICOLON ; null
+Line Number: 2 Start position: 65 EOF  null

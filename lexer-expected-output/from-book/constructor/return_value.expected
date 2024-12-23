@@ -1,0 +1,13 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER Foo null
+Line Number: 1 Start position: 10 LEFT_BRACE { null
+Line Number: 2 Start position: 14 IDENTIFIER init null
+Line Number: 2 Start position: 18 LEFT_PAREN ( null
+Line Number: 2 Start position: 19 RIGHT_PAREN ) null
+Line Number: 2 Start position: 21 LEFT_BRACE { null
+Line Number: 3 Start position: 27 RETURN return null
+Line Number: 3 Start position: 34 STRING "result" result
+Line Number: 3 Start position: 42 SEMICOLON ; null
+Line Number: 4 Start position: 110 RIGHT_BRACE } null
+Line Number: 5 Start position: 112 RIGHT_BRACE } null
+Line Number: 6 Start position: 113 EOF  null

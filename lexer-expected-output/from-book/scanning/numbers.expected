@@ -1,0 +1,7 @@
+Line Number: 1 Start position: 0 NUMBER 123 123.0
+Line Number: 2 Start position: 4 NUMBER 123.456 123.456
+Line Number: 3 Start position: 12 DOT . null
+Line Number: 3 Start position: 13 NUMBER 456 456.0
+Line Number: 4 Start position: 17 NUMBER 123 123.0
+Line Number: 4 Start position: 20 DOT . null
+Line Number: 13 Start position: 205 EOF  null

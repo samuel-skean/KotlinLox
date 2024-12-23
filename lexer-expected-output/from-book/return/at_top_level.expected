@@ -1,0 +1,4 @@
+Line Number: 1 Start position: 0 RETURN return null
+Line Number: 1 Start position: 7 STRING "wat" wat
+Line Number: 1 Start position: 12 SEMICOLON ; null
+Line Number: 2 Start position: 69 EOF  null

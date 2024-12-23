@@ -1,0 +1,12 @@
+Line Number: 2 Start position: 49 IF if null
+Line Number: 2 Start position: 52 LEFT_PAREN ( null
+Line Number: 2 Start position: 53 TRUE true null
+Line Number: 2 Start position: 57 RIGHT_PAREN ) null
+Line Number: 2 Start position: 59 STRING "ok" ok
+Line Number: 2 Start position: 63 SEMICOLON ; null
+Line Number: 2 Start position: 65 ELSE else null
+Line Number: 2 Start position: 70 CLASS class null
+Line Number: 2 Start position: 76 IDENTIFIER Foo null
+Line Number: 2 Start position: 80 LEFT_BRACE { null
+Line Number: 2 Start position: 81 RIGHT_BRACE } null
+Line Number: 3 Start position: 82 EOF  null

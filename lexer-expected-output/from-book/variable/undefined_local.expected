@@ -1,0 +1,6 @@
+Line Number: 1 Start position: 0 LEFT_BRACE { null
+Line Number: 2 Start position: 4 PRINT print null
+Line Number: 2 Start position: 10 IDENTIFIER notDefined null
+Line Number: 2 Start position: 20 SEMICOLON ; null
+Line Number: 3 Start position: 81 RIGHT_BRACE } null
+Line Number: 4 Start position: 82 EOF  null

@@ -1,0 +1,5 @@
+Line Number: 1 Start position: 0 NUMBER 1 1.0
+Line Number: 1 Start position: 2 PLUS + null
+Line Number: 1 Start position: 4 NIL nil null
+Line Number: 1 Start position: 7 SEMICOLON ; null
+Line Number: 2 Start position: 78 EOF  null

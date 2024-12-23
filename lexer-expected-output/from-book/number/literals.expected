@@ -1,0 +1,21 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 NUMBER 123 123.0
+Line Number: 1 Start position: 9 SEMICOLON ; null
+Line Number: 2 Start position: 30 PRINT print null
+Line Number: 2 Start position: 36 NUMBER 987654 987654.0
+Line Number: 2 Start position: 42 SEMICOLON ; null
+Line Number: 3 Start position: 63 PRINT print null
+Line Number: 3 Start position: 69 NUMBER 0 0.0
+Line Number: 3 Start position: 70 SEMICOLON ; null
+Line Number: 4 Start position: 91 PRINT print null
+Line Number: 4 Start position: 97 MINUS - null
+Line Number: 4 Start position: 98 NUMBER 0 0.0
+Line Number: 4 Start position: 99 SEMICOLON ; null
+Line Number: 6 Start position: 121 PRINT print null
+Line Number: 6 Start position: 127 NUMBER 123.456 123.456
+Line Number: 6 Start position: 134 SEMICOLON ; null
+Line Number: 7 Start position: 155 PRINT print null
+Line Number: 7 Start position: 161 MINUS - null
+Line Number: 7 Start position: 162 NUMBER 0.001 0.001
+Line Number: 7 Start position: 167 SEMICOLON ; null
+Line Number: 8 Start position: 187 EOF  null

@@ -1,0 +1,22 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER Foo null
+Line Number: 1 Start position: 10 LEFT_BRACE { null
+Line Number: 2 Start position: 14 IDENTIFIER method null
+Line Number: 2 Start position: 20 LEFT_PAREN ( null
+Line Number: 2 Start position: 21 IDENTIFIER a null
+Line Number: 2 Start position: 22 COMMA , null
+Line Number: 2 Start position: 24 IDENTIFIER b null
+Line Number: 2 Start position: 25 RIGHT_PAREN ) null
+Line Number: 2 Start position: 27 LEFT_BRACE { null
+Line Number: 2 Start position: 28 RIGHT_BRACE } null
+Line Number: 3 Start position: 30 RIGHT_BRACE } null
+Line Number: 5 Start position: 33 IDENTIFIER Foo null
+Line Number: 5 Start position: 36 LEFT_PAREN ( null
+Line Number: 5 Start position: 37 RIGHT_PAREN ) null
+Line Number: 5 Start position: 38 DOT . null
+Line Number: 5 Start position: 39 IDENTIFIER method null
+Line Number: 5 Start position: 45 LEFT_PAREN ( null
+Line Number: 5 Start position: 46 NUMBER 1 1.0
+Line Number: 5 Start position: 47 RIGHT_PAREN ) null
+Line Number: 5 Start position: 48 SEMICOLON ; null
+Line Number: 6 Start position: 106 EOF  null

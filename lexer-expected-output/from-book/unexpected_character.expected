@@ -1,0 +1,8 @@
+[line 3] Error : Unexpected character.
+Line Number: 3 Start position: 100 IDENTIFIER foo null
+Line Number: 3 Start position: 103 LEFT_PAREN ( null
+Line Number: 3 Start position: 104 IDENTIFIER a null
+Line Number: 3 Start position: 108 IDENTIFIER b null
+Line Number: 3 Start position: 109 RIGHT_PAREN ) null
+Line Number: 3 Start position: 110 SEMICOLON ; null
+Line Number: 4 Start position: 111 EOF  null

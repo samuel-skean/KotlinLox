@@ -1,0 +1,15 @@
+Line Number: 1 Start position: 0 FUN fun null
+Line Number: 1 Start position: 4 IDENTIFIER f null
+Line Number: 1 Start position: 5 LEFT_PAREN ( null
+Line Number: 1 Start position: 6 IDENTIFIER a null
+Line Number: 1 Start position: 7 COMMA , null
+Line Number: 1 Start position: 9 IDENTIFIER b null
+Line Number: 1 Start position: 10 RIGHT_PAREN ) null
+Line Number: 1 Start position: 12 LEFT_BRACE { null
+Line Number: 1 Start position: 13 RIGHT_BRACE } null
+Line Number: 3 Start position: 16 IDENTIFIER f null
+Line Number: 3 Start position: 17 LEFT_PAREN ( null
+Line Number: 3 Start position: 18 NUMBER 1 1.0
+Line Number: 3 Start position: 19 RIGHT_PAREN ) null
+Line Number: 3 Start position: 20 SEMICOLON ; null
+Line Number: 4 Start position: 78 EOF  null

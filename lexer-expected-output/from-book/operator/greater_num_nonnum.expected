@@ -1,0 +1,5 @@
+Line Number: 1 Start position: 0 NUMBER 1 1.0
+Line Number: 1 Start position: 2 GREATER > null
+Line Number: 1 Start position: 4 STRING "1" 1
+Line Number: 1 Start position: 7 SEMICOLON ; null
+Line Number: 2 Start position: 59 EOF  null

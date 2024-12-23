@@ -1,0 +1,22 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 MINUS - null
+Line Number: 1 Start position: 7 LEFT_PAREN ( null
+Line Number: 1 Start position: 8 NUMBER 3 3.0
+Line Number: 1 Start position: 9 RIGHT_PAREN ) null
+Line Number: 1 Start position: 10 SEMICOLON ; null
+Line Number: 2 Start position: 26 PRINT print null
+Line Number: 2 Start position: 32 MINUS - null
+Line Number: 2 Start position: 33 MINUS - null
+Line Number: 2 Start position: 34 LEFT_PAREN ( null
+Line Number: 2 Start position: 35 NUMBER 3 3.0
+Line Number: 2 Start position: 36 RIGHT_PAREN ) null
+Line Number: 2 Start position: 37 SEMICOLON ; null
+Line Number: 3 Start position: 52 PRINT print null
+Line Number: 3 Start position: 58 MINUS - null
+Line Number: 3 Start position: 59 MINUS - null
+Line Number: 3 Start position: 60 MINUS - null
+Line Number: 3 Start position: 61 LEFT_PAREN ( null
+Line Number: 3 Start position: 62 NUMBER 3 3.0
+Line Number: 3 Start position: 63 RIGHT_PAREN ) null
+Line Number: 3 Start position: 64 SEMICOLON ; null
+Line Number: 4 Start position: 79 EOF  null

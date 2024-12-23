@@ -1,0 +1,7 @@
+Line Number: 1 Start position: 0 STRING "str" str
+Line Number: 1 Start position: 5 DOT . null
+Line Number: 1 Start position: 6 IDENTIFIER foo null
+Line Number: 1 Start position: 10 EQUAL = null
+Line Number: 1 Start position: 12 STRING "value" value
+Line Number: 1 Start position: 19 SEMICOLON ; null
+Line Number: 2 Start position: 73 EOF  null

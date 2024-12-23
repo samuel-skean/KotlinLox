@@ -1,0 +1,7 @@
+Line Number: 3 Start position: 113 FUN fun null
+Line Number: 3 Start position: 117 IDENTIFIER f null
+Line Number: 3 Start position: 118 LEFT_PAREN ( null
+Line Number: 3 Start position: 119 RIGHT_PAREN ) null
+Line Number: 3 Start position: 121 NUMBER 123 123.0
+Line Number: 3 Start position: 124 SEMICOLON ; null
+Line Number: 4 Start position: 125 EOF  null

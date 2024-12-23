@@ -1,0 +1,17 @@
+Line Number: 2 Start position: 45 FOR for null
+Line Number: 2 Start position: 49 LEFT_PAREN ( null
+Line Number: 2 Start position: 50 VAR var null
+Line Number: 2 Start position: 54 IDENTIFIER a null
+Line Number: 2 Start position: 56 EQUAL = null
+Line Number: 2 Start position: 58 NUMBER 1 1.0
+Line Number: 2 Start position: 59 SEMICOLON ; null
+Line Number: 2 Start position: 61 IDENTIFIER a null
+Line Number: 2 Start position: 63 LESS < null
+Line Number: 2 Start position: 65 NUMBER 2 2.0
+Line Number: 2 Start position: 66 SEMICOLON ; null
+Line Number: 2 Start position: 68 LEFT_BRACE { null
+Line Number: 2 Start position: 69 RIGHT_BRACE } null
+Line Number: 2 Start position: 70 RIGHT_PAREN ) null
+Line Number: 2 Start position: 72 LEFT_BRACE { null
+Line Number: 2 Start position: 73 RIGHT_BRACE } null
+Line Number: 3 Start position: 74 EOF  null

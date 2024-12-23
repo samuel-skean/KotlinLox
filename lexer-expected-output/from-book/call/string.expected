@@ -1,0 +1,5 @@
+Line Number: 1 Start position: 0 STRING "str" str
+Line Number: 1 Start position: 5 LEFT_PAREN ( null
+Line Number: 1 Start position: 6 RIGHT_PAREN ) null
+Line Number: 1 Start position: 7 SEMICOLON ; null
+Line Number: 2 Start position: 70 EOF  null

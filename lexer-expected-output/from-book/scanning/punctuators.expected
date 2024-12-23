@@ -1,0 +1,19 @@
+Line Number: 1 Start position: 0 LEFT_PAREN ( null
+Line Number: 1 Start position: 1 RIGHT_PAREN ) null
+Line Number: 1 Start position: 2 LEFT_BRACE { null
+Line Number: 1 Start position: 3 RIGHT_BRACE } null
+Line Number: 1 Start position: 4 SEMICOLON ; null
+Line Number: 1 Start position: 5 COMMA , null
+Line Number: 1 Start position: 6 PLUS + null
+Line Number: 1 Start position: 7 MINUS - null
+Line Number: 1 Start position: 8 STAR * null
+Line Number: 1 Start position: 9 BANG_EQUAL != null
+Line Number: 1 Start position: 11 EQUAL_EQUAL == null
+Line Number: 1 Start position: 13 LESS_EQUAL <= null
+Line Number: 1 Start position: 15 GREATER_EQUAL >= null
+Line Number: 1 Start position: 17 BANG_EQUAL != null
+Line Number: 1 Start position: 19 LESS < null
+Line Number: 1 Start position: 20 GREATER > null
+Line Number: 1 Start position: 21 SLASH / null
+Line Number: 1 Start position: 22 DOT . null
+Line Number: 22 Start position: 534 EOF  null

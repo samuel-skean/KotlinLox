@@ -1,0 +1,25 @@
+Line Number: 5 Start position: 189 LEFT_BRACE { null
+Line Number: 6 Start position: 193 VAR var null
+Line Number: 6 Start position: 197 IDENTIFIER a null
+Line Number: 6 Start position: 199 EQUAL = null
+Line Number: 6 Start position: 201 STRING "a" a
+Line Number: 6 Start position: 204 SEMICOLON ; null
+Line Number: 7 Start position: 208 IF if null
+Line Number: 7 Start position: 211 LEFT_PAREN ( null
+Line Number: 7 Start position: 212 FALSE false null
+Line Number: 7 Start position: 217 RIGHT_PAREN ) null
+Line Number: 7 Start position: 219 LEFT_BRACE { null
+Line Number: 8 Start position: 225 FUN fun null
+Line Number: 8 Start position: 229 IDENTIFIER foo null
+Line Number: 8 Start position: 232 LEFT_PAREN ( null
+Line Number: 8 Start position: 233 RIGHT_PAREN ) null
+Line Number: 8 Start position: 235 LEFT_BRACE { null
+Line Number: 8 Start position: 237 IDENTIFIER a null
+Line Number: 8 Start position: 238 SEMICOLON ; null
+Line Number: 8 Start position: 240 RIGHT_BRACE } null
+Line Number: 9 Start position: 244 RIGHT_BRACE } null
+Line Number: 10 Start position: 246 RIGHT_BRACE } null
+Line Number: 13 Start position: 313 PRINT print null
+Line Number: 13 Start position: 319 STRING "ok" ok
+Line Number: 13 Start position: 323 SEMICOLON ; null
+Line Number: 14 Start position: 338 EOF  null

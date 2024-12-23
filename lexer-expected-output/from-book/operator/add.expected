@@ -1,0 +1,11 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 NUMBER 123 123.0
+Line Number: 1 Start position: 10 PLUS + null
+Line Number: 1 Start position: 12 NUMBER 456 456.0
+Line Number: 1 Start position: 15 SEMICOLON ; null
+Line Number: 2 Start position: 32 PRINT print null
+Line Number: 2 Start position: 38 STRING "str" str
+Line Number: 2 Start position: 44 PLUS + null
+Line Number: 2 Start position: 46 STRING "ing" ing
+Line Number: 2 Start position: 51 SEMICOLON ; null
+Line Number: 3 Start position: 70 EOF  null

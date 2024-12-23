@@ -1,0 +1,17 @@
+Line Number: 1 Start position: 0 FUN fun null
+Line Number: 1 Start position: 4 IDENTIFIER f null
+Line Number: 1 Start position: 5 LEFT_PAREN ( null
+Line Number: 1 Start position: 6 RIGHT_PAREN ) null
+Line Number: 1 Start position: 8 LEFT_BRACE { null
+Line Number: 2 Start position: 12 RETURN return null
+Line Number: 2 Start position: 18 SEMICOLON ; null
+Line Number: 3 Start position: 22 PRINT print null
+Line Number: 3 Start position: 28 STRING "bad" bad
+Line Number: 3 Start position: 33 SEMICOLON ; null
+Line Number: 4 Start position: 35 RIGHT_BRACE } null
+Line Number: 6 Start position: 38 PRINT print null
+Line Number: 6 Start position: 44 IDENTIFIER f null
+Line Number: 6 Start position: 45 LEFT_PAREN ( null
+Line Number: 6 Start position: 46 RIGHT_PAREN ) null
+Line Number: 6 Start position: 47 SEMICOLON ; null
+Line Number: 7 Start position: 63 EOF  null

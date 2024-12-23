@@ -1,0 +1,8 @@
+Line Number: 2 Start position: 47 WHILE while null
+Line Number: 2 Start position: 53 LEFT_PAREN ( null
+Line Number: 2 Start position: 54 TRUE true null
+Line Number: 2 Start position: 58 RIGHT_PAREN ) null
+Line Number: 2 Start position: 60 VAR var null
+Line Number: 2 Start position: 64 IDENTIFIER foo null
+Line Number: 2 Start position: 67 SEMICOLON ; null
+Line Number: 3 Start position: 68 EOF  null

@@ -1,0 +1,4 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 STRING "ok" ok
+Line Number: 1 Start position: 10 SEMICOLON ; null
+Line Number: 2 Start position: 26 EOF  null

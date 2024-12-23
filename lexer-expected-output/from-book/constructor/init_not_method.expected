@@ -1,0 +1,37 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER Foo null
+Line Number: 1 Start position: 10 LEFT_BRACE { null
+Line Number: 2 Start position: 14 IDENTIFIER init null
+Line Number: 2 Start position: 18 LEFT_PAREN ( null
+Line Number: 2 Start position: 19 IDENTIFIER arg null
+Line Number: 2 Start position: 22 RIGHT_PAREN ) null
+Line Number: 2 Start position: 24 LEFT_BRACE { null
+Line Number: 3 Start position: 30 PRINT print null
+Line Number: 3 Start position: 36 STRING "Foo.init(" Foo.init(
+Line Number: 3 Start position: 48 PLUS + null
+Line Number: 3 Start position: 50 IDENTIFIER arg null
+Line Number: 3 Start position: 54 PLUS + null
+Line Number: 3 Start position: 56 STRING ")" )
+Line Number: 3 Start position: 59 SEMICOLON ; null
+Line Number: 4 Start position: 65 THIS this null
+Line Number: 4 Start position: 69 DOT . null
+Line Number: 4 Start position: 70 IDENTIFIER field null
+Line Number: 4 Start position: 76 EQUAL = null
+Line Number: 4 Start position: 78 STRING "init" init
+Line Number: 4 Start position: 84 SEMICOLON ; null
+Line Number: 5 Start position: 88 RIGHT_BRACE } null
+Line Number: 6 Start position: 90 RIGHT_BRACE } null
+Line Number: 8 Start position: 93 FUN fun null
+Line Number: 8 Start position: 97 IDENTIFIER init null
+Line Number: 8 Start position: 101 LEFT_PAREN ( null
+Line Number: 8 Start position: 102 RIGHT_PAREN ) null
+Line Number: 8 Start position: 104 LEFT_BRACE { null
+Line Number: 9 Start position: 108 PRINT print null
+Line Number: 9 Start position: 114 STRING "not initializer" not initializer
+Line Number: 9 Start position: 131 SEMICOLON ; null
+Line Number: 10 Start position: 133 RIGHT_BRACE } null
+Line Number: 12 Start position: 136 IDENTIFIER init null
+Line Number: 12 Start position: 140 LEFT_PAREN ( null
+Line Number: 12 Start position: 141 RIGHT_PAREN ) null
+Line Number: 12 Start position: 142 SEMICOLON ; null
+Line Number: 13 Start position: 170 EOF  null

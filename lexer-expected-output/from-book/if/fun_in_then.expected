@@ -1,0 +1,11 @@
+Line Number: 2 Start position: 47 IF if null
+Line Number: 2 Start position: 50 LEFT_PAREN ( null
+Line Number: 2 Start position: 51 TRUE true null
+Line Number: 2 Start position: 55 RIGHT_PAREN ) null
+Line Number: 2 Start position: 57 FUN fun null
+Line Number: 2 Start position: 61 IDENTIFIER foo null
+Line Number: 2 Start position: 64 LEFT_PAREN ( null
+Line Number: 2 Start position: 65 RIGHT_PAREN ) null
+Line Number: 2 Start position: 67 LEFT_BRACE { null
+Line Number: 2 Start position: 68 RIGHT_BRACE } null
+Line Number: 3 Start position: 69 EOF  null

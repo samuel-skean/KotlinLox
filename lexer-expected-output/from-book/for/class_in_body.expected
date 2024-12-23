@@ -1,0 +1,10 @@
+Line Number: 2 Start position: 49 FOR for null
+Line Number: 2 Start position: 53 LEFT_PAREN ( null
+Line Number: 2 Start position: 54 SEMICOLON ; null
+Line Number: 2 Start position: 55 SEMICOLON ; null
+Line Number: 2 Start position: 56 RIGHT_PAREN ) null
+Line Number: 2 Start position: 58 CLASS class null
+Line Number: 2 Start position: 64 IDENTIFIER Foo null
+Line Number: 2 Start position: 68 LEFT_BRACE { null
+Line Number: 2 Start position: 69 RIGHT_BRACE } null
+Line Number: 3 Start position: 70 EOF  null

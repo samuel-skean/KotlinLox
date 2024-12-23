@@ -1,0 +1,6 @@
+Line Number: 2 Start position: 50 VAR var null
+Line Number: 2 Start position: 54 NIL nil null
+Line Number: 2 Start position: 58 EQUAL = null
+Line Number: 2 Start position: 60 STRING "value" value
+Line Number: 2 Start position: 67 SEMICOLON ; null
+Line Number: 3 Start position: 68 EOF  null

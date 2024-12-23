@@ -1,0 +1,13 @@
+Line Number: 3 Start position: 103 LEFT_PAREN ( null
+Line Number: 3 Start position: 104 NUMBER 5 5.0
+Line Number: 3 Start position: 106 MINUS - null
+Line Number: 3 Start position: 108 LEFT_PAREN ( null
+Line Number: 3 Start position: 109 NUMBER 3 3.0
+Line Number: 3 Start position: 111 MINUS - null
+Line Number: 3 Start position: 113 NUMBER 1 1.0
+Line Number: 3 Start position: 114 RIGHT_PAREN ) null
+Line Number: 3 Start position: 115 RIGHT_PAREN ) null
+Line Number: 3 Start position: 117 PLUS + null
+Line Number: 3 Start position: 119 MINUS - null
+Line Number: 3 Start position: 120 NUMBER 1 1.0
+Line Number: 5 Start position: 134 EOF  null

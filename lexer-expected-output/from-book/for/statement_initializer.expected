@@ -1,0 +1,18 @@
+Line Number: 3 Start position: 100 FOR for null
+Line Number: 3 Start position: 104 LEFT_PAREN ( null
+Line Number: 3 Start position: 105 LEFT_BRACE { null
+Line Number: 3 Start position: 106 RIGHT_BRACE } null
+Line Number: 3 Start position: 107 SEMICOLON ; null
+Line Number: 3 Start position: 109 IDENTIFIER a null
+Line Number: 3 Start position: 111 LESS < null
+Line Number: 3 Start position: 113 NUMBER 2 2.0
+Line Number: 3 Start position: 114 SEMICOLON ; null
+Line Number: 3 Start position: 116 IDENTIFIER a null
+Line Number: 3 Start position: 118 EQUAL = null
+Line Number: 3 Start position: 120 IDENTIFIER a null
+Line Number: 3 Start position: 122 PLUS + null
+Line Number: 3 Start position: 124 NUMBER 1 1.0
+Line Number: 3 Start position: 125 RIGHT_PAREN ) null
+Line Number: 3 Start position: 127 LEFT_BRACE { null
+Line Number: 3 Start position: 128 RIGHT_BRACE } null
+Line Number: 4 Start position: 129 EOF  null

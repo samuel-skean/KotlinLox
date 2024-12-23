@@ -1,0 +1,21 @@
+Line Number: 1 Start position: 0 LEFT_BRACE { null
+Line Number: 2 Start position: 4 VAR var null
+Line Number: 2 Start position: 8 IDENTIFIER local null
+Line Number: 2 Start position: 14 EQUAL = null
+Line Number: 2 Start position: 16 STRING "local" local
+Line Number: 2 Start position: 23 SEMICOLON ; null
+Line Number: 3 Start position: 27 FUN fun null
+Line Number: 3 Start position: 31 IDENTIFIER f null
+Line Number: 3 Start position: 32 LEFT_PAREN ( null
+Line Number: 3 Start position: 33 RIGHT_PAREN ) null
+Line Number: 3 Start position: 35 LEFT_BRACE { null
+Line Number: 4 Start position: 41 PRINT print null
+Line Number: 4 Start position: 47 IDENTIFIER local null
+Line Number: 4 Start position: 52 SEMICOLON ; null
+Line Number: 5 Start position: 73 RIGHT_BRACE } null
+Line Number: 6 Start position: 77 IDENTIFIER f null
+Line Number: 6 Start position: 78 LEFT_PAREN ( null
+Line Number: 6 Start position: 79 RIGHT_PAREN ) null
+Line Number: 6 Start position: 80 SEMICOLON ; null
+Line Number: 7 Start position: 82 RIGHT_BRACE } null
+Line Number: 8 Start position: 83 EOF  null

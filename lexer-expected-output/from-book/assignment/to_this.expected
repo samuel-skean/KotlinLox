@@ -1,0 +1,18 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER Foo null
+Line Number: 1 Start position: 10 LEFT_BRACE { null
+Line Number: 2 Start position: 14 IDENTIFIER Foo null
+Line Number: 2 Start position: 17 LEFT_PAREN ( null
+Line Number: 2 Start position: 18 RIGHT_PAREN ) null
+Line Number: 2 Start position: 20 LEFT_BRACE { null
+Line Number: 3 Start position: 26 THIS this null
+Line Number: 3 Start position: 31 EQUAL = null
+Line Number: 3 Start position: 33 STRING "value" value
+Line Number: 3 Start position: 40 SEMICOLON ; null
+Line Number: 4 Start position: 88 RIGHT_BRACE } null
+Line Number: 5 Start position: 90 RIGHT_BRACE } null
+Line Number: 7 Start position: 93 IDENTIFIER Foo null
+Line Number: 7 Start position: 96 LEFT_PAREN ( null
+Line Number: 7 Start position: 97 RIGHT_PAREN ) null
+Line Number: 7 Start position: 98 SEMICOLON ; null
+Line Number: 8 Start position: 99 EOF  null

@@ -1,0 +1,5 @@
+Line Number: 1 Start position: 0 TRUE true null
+Line Number: 1 Start position: 4 DOT . null
+Line Number: 1 Start position: 5 IDENTIFIER foo null
+Line Number: 1 Start position: 8 SEMICOLON ; null
+Line Number: 2 Start position: 66 EOF  null

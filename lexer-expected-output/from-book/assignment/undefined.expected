@@ -1,0 +1,5 @@
+Line Number: 1 Start position: 0 IDENTIFIER unknown null
+Line Number: 1 Start position: 8 EQUAL = null
+Line Number: 1 Start position: 10 STRING "what" what
+Line Number: 1 Start position: 16 SEMICOLON ; null
+Line Number: 2 Start position: 72 EOF  null

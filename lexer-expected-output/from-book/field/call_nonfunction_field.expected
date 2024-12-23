@@ -1,0 +1,24 @@
+Line Number: 1 Start position: 0 CLASS class null
+Line Number: 1 Start position: 6 IDENTIFIER Foo null
+Line Number: 1 Start position: 10 LEFT_BRACE { null
+Line Number: 1 Start position: 11 RIGHT_BRACE } null
+Line Number: 3 Start position: 14 VAR var null
+Line Number: 3 Start position: 18 IDENTIFIER foo null
+Line Number: 3 Start position: 22 EQUAL = null
+Line Number: 3 Start position: 24 IDENTIFIER Foo null
+Line Number: 3 Start position: 27 LEFT_PAREN ( null
+Line Number: 3 Start position: 28 RIGHT_PAREN ) null
+Line Number: 3 Start position: 29 SEMICOLON ; null
+Line Number: 4 Start position: 31 IDENTIFIER foo null
+Line Number: 4 Start position: 34 DOT . null
+Line Number: 4 Start position: 35 IDENTIFIER bar null
+Line Number: 4 Start position: 39 EQUAL = null
+Line Number: 4 Start position: 41 STRING "not fn" not fn
+Line Number: 4 Start position: 49 SEMICOLON ; null
+Line Number: 6 Start position: 52 IDENTIFIER foo null
+Line Number: 6 Start position: 55 DOT . null
+Line Number: 6 Start position: 56 IDENTIFIER bar null
+Line Number: 6 Start position: 59 LEFT_PAREN ( null
+Line Number: 6 Start position: 60 RIGHT_PAREN ) null
+Line Number: 6 Start position: 61 SEMICOLON ; null
+Line Number: 7 Start position: 124 EOF  null

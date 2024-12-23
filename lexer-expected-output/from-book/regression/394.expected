@@ -1,0 +1,16 @@
+Line Number: 1 Start position: 0 LEFT_BRACE { null
+Line Number: 2 Start position: 4 CLASS class null
+Line Number: 2 Start position: 10 IDENTIFIER A null
+Line Number: 2 Start position: 12 LEFT_BRACE { null
+Line Number: 2 Start position: 13 RIGHT_BRACE } null
+Line Number: 3 Start position: 17 CLASS class null
+Line Number: 3 Start position: 23 IDENTIFIER B null
+Line Number: 3 Start position: 25 LESS < null
+Line Number: 3 Start position: 27 IDENTIFIER A null
+Line Number: 3 Start position: 29 LEFT_BRACE { null
+Line Number: 3 Start position: 30 RIGHT_BRACE } null
+Line Number: 4 Start position: 34 PRINT print null
+Line Number: 4 Start position: 40 IDENTIFIER B null
+Line Number: 4 Start position: 41 SEMICOLON ; null
+Line Number: 5 Start position: 56 RIGHT_BRACE } null
+Line Number: 6 Start position: 57 EOF  null

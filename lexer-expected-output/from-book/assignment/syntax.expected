@@ -1,0 +1,19 @@
+Line Number: 2 Start position: 34 VAR var null
+Line Number: 2 Start position: 38 IDENTIFIER a null
+Line Number: 2 Start position: 40 EQUAL = null
+Line Number: 2 Start position: 42 STRING "before" before
+Line Number: 2 Start position: 50 SEMICOLON ; null
+Line Number: 3 Start position: 52 VAR var null
+Line Number: 3 Start position: 56 IDENTIFIER c null
+Line Number: 3 Start position: 58 EQUAL = null
+Line Number: 3 Start position: 60 IDENTIFIER a null
+Line Number: 3 Start position: 62 EQUAL = null
+Line Number: 3 Start position: 64 STRING "var" var
+Line Number: 3 Start position: 69 SEMICOLON ; null
+Line Number: 4 Start position: 71 PRINT print null
+Line Number: 4 Start position: 77 IDENTIFIER a null
+Line Number: 4 Start position: 78 SEMICOLON ; null
+Line Number: 5 Start position: 95 PRINT print null
+Line Number: 5 Start position: 101 IDENTIFIER c null
+Line Number: 5 Start position: 102 SEMICOLON ; null
+Line Number: 6 Start position: 118 EOF  null

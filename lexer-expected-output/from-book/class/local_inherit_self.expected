@@ -1,0 +1,9 @@
+Line Number: 1 Start position: 0 LEFT_BRACE { null
+Line Number: 2 Start position: 4 CLASS class null
+Line Number: 2 Start position: 10 IDENTIFIER Foo null
+Line Number: 2 Start position: 14 LESS < null
+Line Number: 2 Start position: 16 IDENTIFIER Foo null
+Line Number: 2 Start position: 20 LEFT_BRACE { null
+Line Number: 2 Start position: 21 RIGHT_BRACE } null
+Line Number: 3 Start position: 77 RIGHT_BRACE } null
+Line Number: 5 Start position: 130 EOF  null

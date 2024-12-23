@@ -1,0 +1,9 @@
+Line Number: 2 Start position: 49 IF if null
+Line Number: 2 Start position: 52 LEFT_PAREN ( null
+Line Number: 2 Start position: 53 TRUE true null
+Line Number: 2 Start position: 57 RIGHT_PAREN ) null
+Line Number: 2 Start position: 59 CLASS class null
+Line Number: 2 Start position: 65 IDENTIFIER Foo null
+Line Number: 2 Start position: 69 LEFT_BRACE { null
+Line Number: 2 Start position: 70 RIGHT_BRACE } null
+Line Number: 3 Start position: 71 EOF  null

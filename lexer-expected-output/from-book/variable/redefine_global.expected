@@ -1,0 +1,14 @@
+Line Number: 1 Start position: 0 VAR var null
+Line Number: 1 Start position: 4 IDENTIFIER a null
+Line Number: 1 Start position: 6 EQUAL = null
+Line Number: 1 Start position: 8 STRING "1" 1
+Line Number: 1 Start position: 11 SEMICOLON ; null
+Line Number: 2 Start position: 13 VAR var null
+Line Number: 2 Start position: 17 IDENTIFIER a null
+Line Number: 2 Start position: 19 EQUAL = null
+Line Number: 2 Start position: 21 STRING "2" 2
+Line Number: 2 Start position: 24 SEMICOLON ; null
+Line Number: 3 Start position: 26 PRINT print null
+Line Number: 3 Start position: 32 IDENTIFIER a null
+Line Number: 3 Start position: 33 SEMICOLON ; null
+Line Number: 4 Start position: 47 EOF  null

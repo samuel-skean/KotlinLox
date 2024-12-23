@@ -1,0 +1,14 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 STRING "(" (
+Line Number: 1 Start position: 10 PLUS + null
+Line Number: 1 Start position: 12 STRING "" 
+Line Number: 1 Start position: 15 PLUS + null
+Line Number: 1 Start position: 17 STRING ")" )
+Line Number: 1 Start position: 20 SEMICOLON ; null
+Line Number: 2 Start position: 38 PRINT print null
+Line Number: 2 Start position: 44 STRING "a string" a string
+Line Number: 2 Start position: 54 SEMICOLON ; null
+Line Number: 5 Start position: 91 PRINT print null
+Line Number: 5 Start position: 97 STRING "A~¶Þॐஃ" A~¶Þॐஃ
+Line Number: 5 Start position: 105 SEMICOLON ; null
+Line Number: 6 Start position: 124 EOF  null

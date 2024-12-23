@@ -1,0 +1,9 @@
+Line Number: 2 Start position: 47 FOR for null
+Line Number: 2 Start position: 51 LEFT_PAREN ( null
+Line Number: 2 Start position: 52 SEMICOLON ; null
+Line Number: 2 Start position: 53 SEMICOLON ; null
+Line Number: 2 Start position: 54 RIGHT_PAREN ) null
+Line Number: 2 Start position: 56 VAR var null
+Line Number: 2 Start position: 60 IDENTIFIER foo null
+Line Number: 2 Start position: 63 SEMICOLON ; null
+Line Number: 3 Start position: 64 EOF  null

@@ -1,0 +1,26 @@
+Line Number: 2 Start position: 28 PRINT print null
+Line Number: 2 Start position: 34 FALSE false null
+Line Number: 2 Start position: 40 OR or null
+Line Number: 2 Start position: 43 STRING "ok" ok
+Line Number: 2 Start position: 47 SEMICOLON ; null
+Line Number: 3 Start position: 63 PRINT print null
+Line Number: 3 Start position: 69 NIL nil null
+Line Number: 3 Start position: 73 OR or null
+Line Number: 3 Start position: 76 STRING "ok" ok
+Line Number: 3 Start position: 80 SEMICOLON ; null
+Line Number: 6 Start position: 125 PRINT print null
+Line Number: 6 Start position: 131 TRUE true null
+Line Number: 6 Start position: 136 OR or null
+Line Number: 6 Start position: 139 STRING "ok" ok
+Line Number: 6 Start position: 143 SEMICOLON ; null
+Line Number: 7 Start position: 161 PRINT print null
+Line Number: 7 Start position: 167 NUMBER 0 0.0
+Line Number: 7 Start position: 169 OR or null
+Line Number: 7 Start position: 172 STRING "ok" ok
+Line Number: 7 Start position: 176 SEMICOLON ; null
+Line Number: 8 Start position: 191 PRINT print null
+Line Number: 8 Start position: 197 STRING "s" s
+Line Number: 8 Start position: 201 OR or null
+Line Number: 8 Start position: 204 STRING "ok" ok
+Line Number: 8 Start position: 208 SEMICOLON ; null
+Line Number: 9 Start position: 222 EOF  null

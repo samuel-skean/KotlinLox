@@ -1,0 +1,11 @@
+Line Number: 1 Start position: 0 FUN fun null
+Line Number: 1 Start position: 4 IDENTIFIER foo null
+Line Number: 1 Start position: 7 LEFT_PAREN ( null
+Line Number: 1 Start position: 8 IDENTIFIER a null
+Line Number: 1 Start position: 9 RIGHT_PAREN ) null
+Line Number: 1 Start position: 11 LEFT_BRACE { null
+Line Number: 2 Start position: 15 VAR var null
+Line Number: 2 Start position: 19 IDENTIFIER a null
+Line Number: 2 Start position: 20 SEMICOLON ; null
+Line Number: 3 Start position: 88 RIGHT_BRACE } null
+Line Number: 4 Start position: 89 EOF  null
