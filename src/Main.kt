@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
 fun runFile(path: String) {
     val bytes = Files.readAllBytes(Paths.get(path))
     run(String(bytes, Charset.defaultCharset()))
-    if (hadError) { exitProcess(64) }
+    if (hadError) { exitProcess(65) }
 }
 
 fun runPrompt() {
