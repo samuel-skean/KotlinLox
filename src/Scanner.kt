@@ -25,9 +25,8 @@ class Scanner(private val source: String) {
     }
 
     private fun nextToken(): Token? {
-        val c = nextCharacter()
         // man... that's not what when means :(.
-        return when (c) {
+        return when (val c = nextCharacter()) {
             '(' -> simpleToken(LEFT_PAREN)
             ')' -> simpleToken(RIGHT_PAREN)
             '{' -> simpleToken(LEFT_BRACE)
@@ -124,6 +123,10 @@ class Scanner(private val source: String) {
     }
 
 
+    // STRETCH: Make the below methods the only methods on the lexer class. Then, make all the above methods, that
+    // are specific to actual things in the language, freestanding functions. Take as much inspiration as possible
+    // from [Lexical Scanning in Go](https://www.youtube.com/watch?v=HxaD_trXwRE) without *actually* invoking
+    // arbitrary concurrency.
     // Helpers:
 
     private fun isAtEnd() = current >= source.length
