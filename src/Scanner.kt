@@ -17,66 +17,70 @@ class Scanner(private val source: String) {
             // We are at the beginning of the next lexeme.
             // Scrunch up, little lexer caterpillar!
             start = current
-            yieldAll(scanToken())
+            val nextToken = nextToken()
+            if (nextToken != null) yield(nextToken)
         }
 
         yield(Token(EOF, "", null, lineNum, start))
     }
 
-    private fun scanToken() = sequence {
+    private fun nextToken(): Token? {
         val c = nextCharacter()
         // man... that's not what when means :(.
-        when (c) {
-            '(' -> yieldAll(addSimpleToken(LEFT_PAREN))
-            ')' -> yieldAll(addSimpleToken(RIGHT_PAREN))
-            '{' -> yieldAll(addSimpleToken(LEFT_BRACE))
-            '}' -> yieldAll(addSimpleToken(RIGHT_BRACE))
-            ',' -> yieldAll(addSimpleToken(COMMA))
-            '.' -> yieldAll(addSimpleToken(DOT))
-            '-' -> yieldAll(addSimpleToken(MINUS))
-            '+' -> yieldAll(addSimpleToken(PLUS))
-            ';' -> yieldAll(addSimpleToken(SEMICOLON))
+        return when (c) {
+            '(' -> simpleToken(LEFT_PAREN)
+            ')' -> simpleToken(RIGHT_PAREN)
+            '{' -> simpleToken(LEFT_BRACE)
+            '}' -> simpleToken(RIGHT_BRACE)
+            ',' -> simpleToken(COMMA)
+            '.' -> simpleToken(DOT)
+            '-' -> simpleToken(MINUS)
+            '+' -> simpleToken(PLUS)
+            ';' -> simpleToken(SEMICOLON)
             '/' -> {
                 if (matchCharacter('/')) {
                     while (peek() != '\n' && !isAtEnd()) nextCharacter()
+                    null
                 } else {
-                    yieldAll(addSimpleToken(SLASH))
+                    simpleToken(SLASH)
                 }
             }
-            '*' -> yieldAll(addSimpleToken(STAR))
-            '!' -> yieldAll(addSimpleToken(if (matchCharacter('=')) BANG_EQUAL else BANG))
-            '=' -> yieldAll(addSimpleToken(if (matchCharacter('=')) EQUAL_EQUAL else EQUAL))
-            '>' -> yieldAll(addSimpleToken(if (matchCharacter('=')) GREATER_EQUAL else GREATER))
-            '<' -> yieldAll(addSimpleToken(if (matchCharacter('=')) LESS_EQUAL else LESS))
+            '*' -> simpleToken(STAR)
+            '!' -> simpleToken(if (matchCharacter('=')) BANG_EQUAL else BANG)
+            '=' -> simpleToken(if (matchCharacter('=')) EQUAL_EQUAL else EQUAL)
+            '>' -> simpleToken(if (matchCharacter('=')) GREATER_EQUAL else GREATER)
+            '<' -> simpleToken(if (matchCharacter('=')) LESS_EQUAL else LESS)
 
             // Ignore whitespace:
-            ' ', '\r', '\t' -> {}
-            '\n' -> lineNum++
-            '"' -> yieldAll(string())
+            ' ', '\r', '\t' -> null
+            '\n' -> {
+                lineNum++
+                null
+            }
+            '"' -> string()
 
 
             else -> {
                 if (c.isDigit()) {
-                    yieldAll(number())
+                    number()
                 } else if (c == '_' || c.isLetter()) {
-                    yieldAll(identifier())
+                    identifier()
                 } else {
                     loxError(lineNum, "Unexpected character.")
+                    null
                 }
-
             }
-
         }
     }
 
-    private fun identifier() = sequence {
+    private fun identifier(): Token {
         while (peek()?.isLetterOrDigit() == true || peek() == '_') nextCharacter()
 
         // Maximal munch requires that we handle keywords as a subcategory of identifiers.
-        yieldAll(addSimpleToken(reservedWords[source.substring(start, current)] ?: IDENTIFIER))
+        return simpleToken(reservedWords[source.substring(start, current)] ?: IDENTIFIER)
     }
 
-    private fun string() = sequence {
+    private fun string(): Token? {
         while (peek() != '"' && !isAtEnd()) {
             // String literals can have newlines in them in Lox! Whaddya know.
             if (peek() == '\n') lineNum++
@@ -88,19 +92,20 @@ class Scanner(private val source: String) {
             // In general, this means "return from this closure, not the full function `string`". So, basically, do a
             // local return. This means `sequence` is still responsible for creating a sequence of things that were
             // yielded (though in this case, that's nothing).
-            return@sequence
+            return null
         }
 
+        @Suppress("GrazieInspection")
         // Consume the final '"':
         nextCharacter()
 
         // Trim the surrounding quotes.
         // Lox does not support escape sequences, so this is all we need to do.
         val contents = source.substring(start + 1, current - 1)
-        yieldAll(addToken(STRING, contents))
+        return token(STRING, contents)
     }
 
-    private fun number() = sequence {
+    private fun number(): Token {
         // This is pretty disgusting, but I *think* it's nicer than returning a null character (e.g., '\0'):
         while (peek()?.isDigit() == true) {
             nextCharacter()
@@ -115,7 +120,7 @@ class Scanner(private val source: String) {
         }
 
         val literal = source.substring(start, current)
-        yieldAll(addToken(NUMBER, literal.toDouble()))
+        return token(NUMBER, literal.toDouble())
     }
 
 
@@ -127,28 +132,26 @@ class Scanner(private val source: String) {
     private fun nextCharacter() = source[current++] // yay, operator overloading! :)
 
     // match() from the book
-    private fun matchCharacter(expected: Char): Boolean {
-        if (isAtEnd()) return false
-        if (source[current] != expected) return false
+    private fun matchCharacter(expected: Char): Boolean =
+        if (isAtEnd()) false
+        else if (source[current] != expected) false
+        else {
+            current++
+            true
+        }
 
-        current++
-        return true
-    }
+    private fun peek(): Char? =
+        if (isAtEnd()) null
+        else source[current]
 
-    private fun peek(): Char? {
-        if (isAtEnd()) return null
-        return source[current]
-    }
+    private fun peekNext(): Char? =
+        if (current + 1 >= source.length) null
+        else source[current + 1]
 
-    private fun peekNext(): Char? {
-        if (current + 1 >= source.length) return null
-        return source[current + 1]
-    }
 
     // Take that, function overloading!
-    private fun addSimpleToken(type: TokenType) = addToken(type, null)
+    private fun simpleToken(type: TokenType) = token(type, null)
 
-    private fun addToken(type: TokenType, literal: Any?) = sequence {
-        yield(Token(type, source.substring(start, current), literal, lineNum, start))
-    }
+    private fun token(type: TokenType, literal: Any?) =
+        Token(type, source.substring(start, current), literal, lineNum, start)
 }
