@@ -1,0 +1,7 @@
+Line Number: 1 Start position: 0 PRINT print null
+Line Number: 1 Start position: 6 STRING "Hello world" Hello world
+Line Number: 1 Start position: 19 SEMICOLON ; null
+Line Number: 4 Start position: 123 PRINT print null
+Line Number: 4 Start position: 129 STRING "Bye" Bye
+Line Number: 4 Start position: 134 SEMICOLON ; null
+Line Number: 4 Start position: 134 EOF  null

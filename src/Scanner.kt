@@ -37,8 +37,22 @@ class Scanner(private val source: String) {
             '+' -> simpleToken(PLUS)
             ';' -> simpleToken(SEMICOLON)
             '/' -> {
-                if (matchCharacter('/')) {
+                if (matchCharacter('/')) { // Single-line comment
                     while (peek() != '\n' && !isAtEnd()) nextCharacter()
+                    null
+                } else if (matchCharacter('*')) { // Multi-line comment
+                    while (!(peek() == '*' && peekNext() == '/') && !isAtEnd()) {
+                        if (nextCharacter() == '\n') lineNum++
+                    }
+
+                    // STRETCH: Is there a better way to do this that doesn't duplicate the error code?
+                    if (!isAtEnd()) {
+                        nextCharacter()
+                        if (!isAtEnd()) nextCharacter()
+                        else loxError(lineNum, "Unterminated multi-line comment.")
+                    } else {
+                        loxError(lineNum, "Unterminated multi-line comment.")
+                    }
                     null
                 } else {
                     simpleToken(SLASH)

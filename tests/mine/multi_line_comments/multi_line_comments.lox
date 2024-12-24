@@ -1,0 +1,4 @@
+print "Hello world";
+/* Hello
+    This is an appropriately formed multi-line comment.
+    lka;sjd98p723h;pio8sdu f \n\t */ print "Bye";

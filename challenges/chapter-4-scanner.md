@@ -12,3 +12,5 @@ I know Ruby has special rules around the `[]=` method and other methods ending i
 It might be useful for doc-comments, or to report grammatical errors in comments, or to attempt to detect when some code is mistakenly commented out. It would also be useful for transforming code while preserving comments.
 
 4. Add support to Lox’s scanner for C-style /* ... */ block comments. Make sure to handle newlines in them. Consider allowing them to nest. Is adding support for nesting more work than you expected? Why?
+
+I added support. I'm not supporting nesting because I know that's a pain (I did it for Bluejay), and there's very little reason to given that single-line comments exist.

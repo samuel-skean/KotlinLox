@@ -4,7 +4,7 @@ set -ux # I can't set -e because sometimes the code has an exception, and it act
 
 # Don't pass me any paths with '/' in them!
 OUTPUT_DIR=$1
-rm -r $OUTPUT_DIR # Remove the output directory.
+rm -rf $OUTPUT_DIR # Remove the output directory, *if* it exists.
 for testfile in $(find tests -type f); do
   OUTPUT_FILE=$(sed "s/tests/${OUTPUT_DIR}/g" <<< $testfile | sed 's/.lox/.out/g')
   mkdir -p $(echo $OUTPUT_FILE | sed 's/\/[^/]*$//')

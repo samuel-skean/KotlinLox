@@ -1,0 +1,4 @@
+// TODO: Add expectation of an error in the parsing stage.
+/* This is an attempt to nest multi-line
+comments. /* This is a multi-line comment we
+wanted to nest */ This is parsed as lox syntax. */

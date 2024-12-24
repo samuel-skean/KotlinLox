@@ -1,0 +1,3 @@
+// [line 3] Error : Unterminated multi-line comment.
+/* I almost remembered to terminate this multi-line comment. *
+// TODO: Fix error messages when error messages are fixed (gap between "Error" and ":".
