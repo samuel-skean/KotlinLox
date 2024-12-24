@@ -2,65 +2,64 @@ import TokenType.*
 class Scanner(private val source: String) {
     // I cannot escape companion objects, I guess.
     companion object {
-        val reservedWords = mapOf("and" to AND, "class" to CLASS, "else" to ELSE, "false" to FALSE, "fun" to FUN,
+        private val reservedWords = mapOf("and" to AND, "class" to CLASS, "else" to ELSE, "false" to FALSE, "fun" to
+                FUN,
             "for" to FOR, "if" to IF, "nil" to NIL, "or" to OR, "print" to PRINT, "return" to RETURN, "super" to SUPER,
             "this" to THIS, "true" to TRUE, "var" to VAR, "while" to WHILE)
     }
-    private val tokens = mutableListOf<Token>()
     // First character of the current lexeme being scanned:
     private var start = 0
     private var current = 0
     private var lineNum = 1
 
-    fun scanTokens(): List<Token> {
+    fun scanTokens(): Sequence<Token> = sequence {
         while (!isAtEnd()) {
             // We are at the beginning of the next lexeme.
             // Scrunch up, little lexer caterpillar!
             start = current
-            scanToken()
+            yieldAll(scanToken())
         }
 
-        tokens.add(Token(EOF, "", null, lineNum, start))
-        return tokens
+        yield(Token(EOF, "", null, lineNum, start))
     }
 
-    private fun scanToken() {
+    private fun scanToken() = sequence {
         val c = nextCharacter()
         // man... that's not what when means :(.
         when (c) {
-            '(' -> addSimpleToken(LEFT_PAREN)
-            ')' -> addSimpleToken(RIGHT_PAREN)
-            '{' -> addSimpleToken(LEFT_BRACE)
-            '}' -> addSimpleToken(RIGHT_BRACE)
-            ',' -> addSimpleToken(COMMA)
-            '.' -> addSimpleToken(DOT)
-            '-' -> addSimpleToken(MINUS)
-            '+' -> addSimpleToken(PLUS)
-            ';' -> addSimpleToken(SEMICOLON)
+            '(' -> yieldAll(addSimpleToken(LEFT_PAREN))
+            ')' -> yieldAll(addSimpleToken(RIGHT_PAREN))
+            '{' -> yieldAll(addSimpleToken(LEFT_BRACE))
+            '}' -> yieldAll(addSimpleToken(RIGHT_BRACE))
+            ',' -> yieldAll(addSimpleToken(COMMA))
+            '.' -> yieldAll(addSimpleToken(DOT))
+            '-' -> yieldAll(addSimpleToken(MINUS))
+            '+' -> yieldAll(addSimpleToken(PLUS))
+            ';' -> yieldAll(addSimpleToken(SEMICOLON))
             '/' -> {
                 if (matchCharacter('/')) {
                     while (peek() != '\n' && !isAtEnd()) nextCharacter()
                 } else {
-                    addSimpleToken(SLASH)
+                    yieldAll(addSimpleToken(SLASH))
                 }
             }
-            '*' -> addSimpleToken(STAR)
-            '!' -> addSimpleToken(if (matchCharacter('=')) BANG_EQUAL else BANG)
-            '=' -> addSimpleToken(if (matchCharacter('=')) EQUAL_EQUAL else EQUAL)
-            '>' -> addSimpleToken(if (matchCharacter('=')) GREATER_EQUAL else GREATER)
-            '<' -> addSimpleToken(if (matchCharacter('=')) LESS_EQUAL else LESS)
+            '*' -> yieldAll(addSimpleToken(STAR))
+            '!' -> yieldAll(addSimpleToken(if (matchCharacter('=')) BANG_EQUAL else BANG))
+            '=' -> yieldAll(addSimpleToken(if (matchCharacter('=')) EQUAL_EQUAL else EQUAL))
+            '>' -> yieldAll(addSimpleToken(if (matchCharacter('=')) GREATER_EQUAL else GREATER))
+            '<' -> yieldAll(addSimpleToken(if (matchCharacter('=')) LESS_EQUAL else LESS))
 
             // Ignore whitespace:
             ' ', '\r', '\t' -> {}
             '\n' -> lineNum++
-            '"' -> string()
+            '"' -> yieldAll(string())
 
 
             else -> {
                 if (c.isDigit()) {
-                    number()
+                    yieldAll(number())
                 } else if (c == '_' || c.isLetter()) {
-                    identifier()
+                    yieldAll(identifier())
                 } else {
                     loxError(lineNum, "Unexpected character.")
                 }
@@ -70,14 +69,14 @@ class Scanner(private val source: String) {
         }
     }
 
-    private fun identifier() {
+    private fun identifier() = sequence {
         while (peek()?.isLetterOrDigit() == true || peek() == '_') nextCharacter()
 
         // Maximal munch requires that we handle keywords as a subcategory of identifiers.
-        addSimpleToken(reservedWords[source.substring(start, current)] ?: IDENTIFIER)
+        yieldAll(addSimpleToken(reservedWords[source.substring(start, current)] ?: IDENTIFIER))
     }
 
-    private fun string() {
+    private fun string() = sequence {
         while (peek() != '"' && !isAtEnd()) {
             // String literals can have newlines in them in Lox! Whaddya know.
             if (peek() == '\n') lineNum++
@@ -86,7 +85,10 @@ class Scanner(private val source: String) {
 
         if (isAtEnd()) {
             loxError(lineNum, "Unterminated string.")
-            return
+            // In general, this means "return from this closure, not the full function `string`". So, basically, do a
+            // local return. This means `sequence` is still responsible for creating a sequence of things that were
+            // yielded (though in this case, that's nothing).
+            return@sequence
         }
 
         // Consume the final '"':
@@ -95,10 +97,10 @@ class Scanner(private val source: String) {
         // Trim the surrounding quotes.
         // Lox does not support escape sequences, so this is all we need to do.
         val contents = source.substring(start + 1, current - 1)
-        addToken(STRING, contents)
+        yieldAll(addToken(STRING, contents))
     }
 
-    private fun number() {
+    private fun number() = sequence {
         // This is pretty disgusting, but I *think* it's nicer than returning a null character (e.g., '\0'):
         while (peek()?.isDigit() == true) {
             nextCharacter()
@@ -113,7 +115,7 @@ class Scanner(private val source: String) {
         }
 
         val literal = source.substring(start, current)
-        addToken(NUMBER, literal.toDouble())
+        yieldAll(addToken(NUMBER, literal.toDouble()))
     }
 
 
@@ -146,7 +148,7 @@ class Scanner(private val source: String) {
     // Take that, function overloading!
     private fun addSimpleToken(type: TokenType) = addToken(type, null)
 
-    private fun addToken(type: TokenType, literal: Any?) {
-        tokens.add(Token(type, source.substring(start, current), literal, lineNum, start))
+    private fun addToken(type: TokenType, literal: Any?) = sequence {
+        yield(Token(type, source.substring(start, current), literal, lineNum, start))
     }
 }
