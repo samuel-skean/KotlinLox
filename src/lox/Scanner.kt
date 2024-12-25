@@ -4,10 +4,9 @@ import lox.TokenType.*
 class Scanner(private val source: String) {
     // I cannot escape companion objects, I guess.
     companion object {
-        private val reservedWords = mapOf("and" to AND, "class" to CLASS, "else" to ELSE, "false" to FALSE, "fun" to
-                FUN,
-            "for" to FOR, "if" to IF, "nil" to NIL, "or" to OR, "print" to PRINT, "return" to RETURN, "super" to SUPER,
-            "this" to THIS, "true" to TRUE, "var" to VAR, "while" to WHILE)
+        private val reservedWords = mapOf("and" to AND, "class" to CLASS, "else" to ELSE, "false" to FALSE,
+            "fun" to FUN, "for" to FOR, "if" to IF, "nil" to NIL, "or" to OR, "print" to PRINT, "return" to RETURN,
+            "super" to SUPER, "this" to THIS, "true" to TRUE, "var" to VAR, "while" to WHILE)
     }
     // First character of the current lexeme being scanned:
     private var start = 0
