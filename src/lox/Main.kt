@@ -12,8 +12,8 @@ fun main(args: Array<String>) {
         Expr.Literal(2)), Token(TokenType.EQUAL_EQUAL, "==", null, 0, 0),
         Expr.Literal("hello"))
 
-    println(LispyExprPrinter().print(expr))
-
+    println("Lisp-y code: ${LispyExprPrinter().print(expr)}")
+    println("RPN code: ${RPNExprPrinter().print(expr)}")
     if (args.size > 1) {
         eprintln("Usage: klox [script]")
         // Following a convention in

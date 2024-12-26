@@ -1,17 +1,14 @@
 package lox
 
-class LispyExprPrinter : ExprPrinter() {
+class RPNExprPrinter : ExprPrinter() {
     override fun format(name: String, vararg exprs: Expr): String {
         val output = StringBuilder()
-        output.append("(")
 
-        output.append(name)
         for (expr in exprs) {
-            output.append(" ") // How nice that this just works for Lisp.
             output.append(expr.accept(this))
+            output.append(" ") // Similarly, this works for RPN!
         }
-
-        output.append(")")
+        output.append(name)
         return output.toString()
     }
 }
