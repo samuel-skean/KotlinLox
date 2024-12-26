@@ -1,5 +1,8 @@
-package lox
+package lox.printers
 
+import lox.Expr
+
+@Suppress("unused")
 class RPNExprPrinter : ExprPrinter() {
     override fun format(name: String, vararg exprs: Expr): String {
         val output = StringBuilder()

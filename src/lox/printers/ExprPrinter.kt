@@ -1,4 +1,6 @@
-package lox
+package lox.printers
+
+import lox.Expr
 
 // I don't love that this is called a printer when it really produces a string, but it seems like things like
 // `PrintWriter` exist in Java and are supported by Kotlin, so when in Rome...
