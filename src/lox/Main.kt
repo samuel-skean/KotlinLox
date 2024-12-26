@@ -7,6 +7,13 @@ import kotlin.system.exitProcess
 
 var hadError = false
 fun main(args: Array<String>) {
+    // Temporary:
+    val expr = Expr.Binary(Expr.Unary(Token(TokenType.PLUS, "+", null, 0, 0),
+        Expr.Literal(2)), Token(TokenType.EQUAL_EQUAL, "==", null, 0, 0),
+        Expr.Literal("hello"))
+
+    println(LispyExprPrinter().print(expr))
+
     if (args.size > 1) {
         eprintln("Usage: klox [script]")
         // Following a convention in
