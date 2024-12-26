@@ -8,7 +8,7 @@ import kotlin.system.exitProcess
 var hadError = false
 fun main(args: Array<String>) {
     if (args.size > 1) {
-        println("Usage: klox [script]")
+        eprintln("Usage: klox [script]")
         // Following a convention in
         // https://man.freebsd.org/cgi/man.cgi?query=sysexits&apropos=0&sektion=0&manpath=FreeBSD+4.3-RELEASE&format=html, just like the book.
         exitProcess(64)
