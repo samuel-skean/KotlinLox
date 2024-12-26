@@ -21,12 +21,16 @@ fun main(args: Array<String>) {
     ))
 }
 
+const val acceptSignature = "fun <R> accept(visitor: Visitor<R>): R"
+
 fun defineAst(outputDir: String, baseName: String, variants: List<String>) {
     val path = "$outputDir/$baseName.kt"
     val writer = PrintWriter(path)
     writer.println("package lox")
     writer.println()
     writer.println("sealed interface $baseName {")
+
+    writer.println("    $acceptSignature")
 
     defineVisitor(writer, baseName, variants)
 
@@ -61,7 +65,7 @@ fun defineVariant(writer: PrintWriter, baseName: String, variantName: String, fi
 
     writer.println(") : $baseName {")
 
-    writer.println("        fun <R> accept(visitor: Visitor<R>): R = ")
+    writer.println("        override $acceptSignature = ")
     writer.println("            visitor.visit$variantName$baseName(this)")
 
     writer.println("    }")
